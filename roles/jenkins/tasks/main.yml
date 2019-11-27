@@ -3,9 +3,9 @@
 - name: "Manage Jenkins with NSSM."
   win_nssm:
     name: Jenkins
-    application: {{ jenkins_path }}
+    application: "{{ jenkins_path }}"
     start_mode: auto
     state: started
-    user: {{ jenkins_user }}
-    password: {{ jenkins_password }}
+    user: "{{ jenkins_user }}"
+    password: "{{ jenkins_password }}"
     dependencies: 'dnscache,netlogon'
