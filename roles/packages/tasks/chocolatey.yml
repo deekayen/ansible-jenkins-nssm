@@ -1,0 +1,8 @@
+---
+
+- name: Install Chocolatey packages.
+  win_chocolatey:
+    name: "{{ item }}"
+    state: present
+    upgrade: False
+  with_items: "{{ chocolatey_packages }}"

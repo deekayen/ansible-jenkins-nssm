@@ -1,0 +1,4 @@
+---
+
+- include: chocolatey.yml
+  when: ansible_os_family == 'Windows'

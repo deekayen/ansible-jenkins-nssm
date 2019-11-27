@@ -1,0 +1,5 @@
+---
+
+jenkins_path: C:\Jenkins\jenkins.exe
+jenkins_user: "domain\svc_jenkins"
+jenkins_password: "{{ vault_jenkins_password }}"

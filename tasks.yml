@@ -1,0 +1,10 @@
+---
+
+- hosts: jenkins
+
+  pre_tasks:
+    - action: win_ping
+
+  roles:
+    - packages
+    - jenkins

@@ -1,0 +1,21 @@
+---
+
+chocolatey_packages:
+  - 7zip
+  - curl
+  - dotnet4.5
+  - git
+  - groovy
+  - notepadplusplus
+  - nsis
+  - nssm
+  - powershell
+  - python2
+  - python3
+  - svn
+  - vmware-tools
+  - webdeploy
+  - windbg
+  - winmerge
+  - winscp
+  - wixtoolset
