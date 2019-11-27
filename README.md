@@ -1,6 +1,8 @@
 Jenkins Windows NSSM Service
 ===============
 
+[![Build Status](https://travis-ci.org/deekayen/ansible-jenkins-nssm.svg?branch=master)](https://travis-ci.org/deekayen/ansible-jenkins-nssm)
+
 Manage the Jenkins service on Windows with NSSM.
 
 Requirements
