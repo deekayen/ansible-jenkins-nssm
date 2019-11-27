@@ -20,6 +20,4 @@ before_script:
 
 script:
   - git ls-files | grep -Ei '^[^[:punct:]].+.(yaml|yml)$' | xargs ansible-review -q
-
-notifications:
-  webhooks: https://galaxy.ansible.com/api/v1/notifications/
+  - ls -1 *.yml | xargs ansible-playbook --syntax-check --list-tasks --vault-password-file=.vault.txt -i 127.0.0.1,

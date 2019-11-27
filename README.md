@@ -6,7 +6,7 @@ Manage the Jenkins service on Windows with NSSM.
 Requirements
 ------------
 
-A vault password. The vault password in this sample repository is `hunter2`.
+A vault password. The vault password in this sample repository is `hunter2`. Putting the vault key file in your git repository is **wrong**. I put it here only as an example so you could see what is inside the sample vault file.
 
 Role Variables
 --------------
