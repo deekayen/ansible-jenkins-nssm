@@ -1,7 +1,7 @@
 Jenkins Windows NSSM Service
 ===============
 
-[![Build Status](https://travis-ci.org/deekayen/ansible-jenkins-nssm.svg?branch=master)](https://travis-ci.org/deekayen/ansible-jenkins-nssm)
+[![Build Status](https://travis-ci.org/deekayen/ansible-jenkins-nssm.svg?branch=master)](https://travis-ci.org/deekayen/ansible-jenkins-nssm) [![Project Status: Abandoned – Initial development has started, but there has not yet been a stable, usable release; the project has been abandoned and the author(s) do not intend on continuing development.](https://www.repostatus.org/badges/latest/abandoned.svg)](https://www.repostatus.org/#abandoned)
 
 Manage the Jenkins service on Windows with NSSM.
 
