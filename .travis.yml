@@ -1,8 +1,7 @@
 ---
 
-dist: trusty
+dist: bionic
 language: python
-python: "2.7"
 
 sudo: false
 
@@ -13,11 +12,11 @@ addons:
     - python-pip
 
 install:
-  - pip install ansible-review
+  - pip install ansible-lint
 
 before_script:
-  - ansible-review --version
+  - ansible-lint --version
 
 script:
-  - git ls-files | grep -Ei '^[^[:punct:]].+.(yaml|yml)$' | xargs ansible-review -q
+  - git ls-files | grep -Ei '^[^[:punct:]].+.(yaml|yml)$' | xargs ansible-lint -q
   - ls -1 *.yml | xargs ansible-playbook --syntax-check --list-tasks --vault-password-file=.vault.txt -i 127.0.0.1,
