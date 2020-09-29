@@ -3,7 +3,8 @@
 - hosts: jenkins
 
   pre_tasks:
-    - action: win_ping
+    - name: Connection test (winrm ping).
+      action: win_ping
 
   roles:
     - packages
